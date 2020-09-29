@@ -3,7 +3,7 @@ import React, { createContext, FC, useState } from 'react';
 interface Context {
   language: string;
   setLanguage: (language: string) => void;
-};
+}
 
 export const LanguageContext = createContext<Context>({
   language: '',
